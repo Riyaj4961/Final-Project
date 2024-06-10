@@ -1,0 +1,62 @@
+body {
+    padding-top: 56px;
+    color: white;
+    background-size:cover; /* This property ensures the background image covers the entire background */
+    background-attachment: fixed;
+ }
+ .card {
+     color:white;
+     box-shadow: 0 4px 8px black;
+     border: 1px solid white;
+     transition: transform 0.2s;
+     background-color: rgba(0,0,0,0.3);
+ }
+
+ .card img {
+    width: auto; /* Change this to the desired width */
+    height: 225px; /* This ensures the image maintains its aspect ratio */
+}
+.navbar {
+    background-color: rgba(0,0,0,0.6); /* Choose your desired background color */
+    color: #f8f9fa;/* Add any additional styling for the navbar here */
+    position: fixed;
+    overflow: hidden;
+    z-index: 1000; /* Ensure navigation bar stays on top */
+    top: 0;
+    width: 100%;
+}
+/* styles1.css */
+.header-2 .navbar-nav .nav-link {
+    color: #fffefe; /* Change the text color of the navbar links */
+}
+
+.header-2 .navbar-nav .nav-link:hover {
+    color: #007bff; /* Change the text color of the navbar links on hover */
+}
+/* styles1.css */
+.jumbotron {
+    background-color:rgba(0,0,0,0.15);
+    color: #f8f9fa;
+}
+
+
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color:rgba(0, 0, 0, 0.15);
+    color: #f8f9fa;
+}
+h2{
+    margin-right: 420px;
+  }
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
